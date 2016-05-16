@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A582ACF61CE9CB4E00CA4607"
+               BuildableName = "RandomNumbers.app"
+               BlueprintName = "RandomNumbers"
+               ReferencedContainer = "container:RandomNumbers.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A582AD071CE9CB4E00CA4607"
+               BuildableName = "RandomNumbersTests.xctest"
+               BlueprintName = "RandomNumbersTests"
+               ReferencedContainer = "container:RandomNumbers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A582AD121CE9CB4E00CA4607"
+               BuildableName = "RandomNumbersUITests.xctest"
+               BlueprintName = "RandomNumbersUITests"
+               ReferencedContainer = "container:RandomNumbers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A582ACF61CE9CB4E00CA4607"
+            BuildableName = "RandomNumbers.app"
+            BlueprintName = "RandomNumbers"
+            ReferencedContainer = "container:RandomNumbers.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A582ACF61CE9CB4E00CA4607"
+            BuildableName = "RandomNumbers.app"
+            BlueprintName = "RandomNumbers"
+            ReferencedContainer = "container:RandomNumbers.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A582ACF61CE9CB4E00CA4607"
+            BuildableName = "RandomNumbers.app"
+            BlueprintName = "RandomNumbers"
+            ReferencedContainer = "container:RandomNumbers.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
