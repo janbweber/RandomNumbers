@@ -13,6 +13,7 @@
 		A582AD021CE9CB4E00CA4607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A582AD001CE9CB4E00CA4607 /* Main.storyboard */; };
 		A582AD0D1CE9CB4E00CA4607 /* RandomNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A582AD0C1CE9CB4E00CA4607 /* RandomNumbersTests.swift */; };
 		A582AD181CE9CB4E00CA4607 /* RandomNumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A582AD171CE9CB4E00CA4607 /* RandomNumbersUITests.swift */; };
+		A582AD261CEA00DE00CA4607 /* MersenneTwisterMT19937.swift in Sources */ = {isa = PBXBuildFile; fileRef = A582AD251CEA00DE00CA4607 /* MersenneTwisterMT19937.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A582AD131CE9CB4E00CA4607 /* RandomNumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomNumbersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A582AD171CE9CB4E00CA4607 /* RandomNumbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumbersUITests.swift; sourceTree = "<group>"; };
 		A582AD191CE9CB4E00CA4607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A582AD251CEA00DE00CA4607 /* MersenneTwisterMT19937.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MersenneTwisterMT19937.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A582ACFE1CE9CB4E00CA4607 /* Assets.xcassets */,
 				A582AD001CE9CB4E00CA4607 /* Main.storyboard */,
 				A582AD031CE9CB4E00CA4607 /* Info.plist */,
+				A582AD251CEA00DE00CA4607 /* MersenneTwisterMT19937.swift */,
 			);
 			path = RandomNumbers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				A582ACFD1CE9CB4E00CA4607 /* ViewController.swift in Sources */,
 				A582ACFB1CE9CB4E00CA4607 /* AppDelegate.swift in Sources */,
+				A582AD261CEA00DE00CA4607 /* MersenneTwisterMT19937.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
